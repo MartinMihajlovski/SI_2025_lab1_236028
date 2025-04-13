@@ -1,0 +1,51 @@
+martin@martinmachine MINGW64 ~/SI_2025_lab1_236028 (master)
+$ git init
+Initialized empty Git repository in C:/Users/martin/SI_2025_lab1_236028/.git/
+
+martin@martinmachine MINGW64 ~/SI_2025_lab1_236028 (master)
+$ nano README.md
+
+martin@martinmachine MINGW64 ~/SI_2025_lab1_236028 (master)
+$ git add .
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+
+martin@martinmachine MINGW64 ~/SI_2025_lab1_236028 (master)
+$ git commit -m "Initial commit"
+[master (root-commit) e4c0b3b] Initial commit
+
+martin@martinmachine MINGW64 ~/SI_2025_lab1_236028 (master)
+$ git remote add origin https://github.com/martinmihajlovski/SI_2025_lab1_236028.git
+
+martin@martinmachine MINGW64 ~/SI_2025_lab1_236028 (master)
+$ git push -u origin master
+
+martin@martinmachine MINGW64 ~/SI_2025_lab1_236028 (master)
+$ git add SI2025Lab1Main.java
+$ git commit -m "Add starter code"
+$ git push
+
+martin@martinmachine MINGW64 ~/SI_2025_lab1_236028 (master)
+$ git fetch origin
+
+martin@martinmachine MINGW64 ~/SI_2025_lab1_236028 (master)
+$ git checkout --track origin/1-remove-a-task-by-name
+$ git add SI2025Lab1Main.java
+$ git commit -m "Implement removal logic"
+$ git push origin 1-remove-a-task-by-name
+
+martin@martinmachine MINGW64 ~/SI_2025_lab1_236028 (1-remove-a-task-by-name)
+$ git checkout --track origin/5-filter-tasks-by-category
+$ git add SI2025Lab1Main.java
+$ git commit -m "Implement filtering by category"
+$ git push origin 5-filter-tasks-by-category
+
+martin@martinmachine MINGW64 ~/SI_2025_lab1_236028 (5-filter-tasks-by-category)
+$ git checkout --track origin/9-mark-all-tasks-in-a-category-as-completed
+$ git add SI2025Lab1Main.java
+$ git commit -m "Implement bulk completion logic"
+$ git push origin 9-mark-all-tasks-in-a-category-as-completed
+
+martin@martinmachine MINGW64 ~/SI_2025_lab1_236028 (9-mark-all-tasks-in-a-category-as-completed)
+$ git checkout master
+$ git pull origin master
+$ git merge 1-remove-a-task-by-name

@@ -1,0 +1,17 @@
+$ git log --oneline --graph --all
+*   316cc3b (HEAD -> master, origin/master, origin/HEAD) Merge branch '15-mark-all-tasks-in-a-category-as-completed'
+|\
+| * be4a27e (origin/15-mark-all-tasks-in-a-category-as-completed, 15-mark-all-tasks-in-a-category-as-completed) Implemented mark all tasks in a category as completed
+* |   4054d85 Merge pull request #17 from MartinMihajlovski/14-filter-tasks-by-category
+|\ \
+| * | 4c533af (origin/14-filter-tasks-by-category, 14-filter-tasks-by-category) Implemented filter tasks by category
+| |/
+* |   28d1bd4 Merge pull request #16 from MartinMihajlovski/13-remove-a-task-by-name
+|\ \
+| |/
+|/|
+| * b92d8a6 (origin/13-remove-a-task-by-name, 13-remove-a-task-by-name) Implemented remove a task by name
+|/
+* 66f8dd0 Add startet code
+* 417bb81 Initial commit
+
