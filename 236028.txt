@@ -2,6 +2,7 @@ martin@martinmachine MINGW64 ~/SI_2025_lab1_236028 (master)
 $ git init
 Initialized empty Git repository in C:/Users/martin/SI_2025_lab1_236028/.git/
 
+
 martin@martinmachine MINGW64 ~/SI_2025_lab1_236028 (master)
 $ nano README.md
 
